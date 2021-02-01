@@ -1,0 +1,20 @@
+# Site settings
+author: Filip Szafranski
+title: Filip Szafranski | Data Science Blog
+header-img: img/home-bg.png
+email: szafranskifilip@gmail.com
+copyright_name: Filip Szafranski
+description: > # this means to ignore newlines until "baseurl:"
+  Data Science World
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  fipcio131
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
